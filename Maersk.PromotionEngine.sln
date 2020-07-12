@@ -17,6 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maersk.PromotionEngine.Api"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maersk.PromotionEngine.Business", "source\Maersk.PromotionEngine.Business\Maersk.PromotionEngine.Business.csproj", "{024A6396-D394-487B-AB60-C8D32821502E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{084C61B6-819A-4BDA-82F9-2D88BF7E7A88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{FE4665FC-5DD3-4D35-A86E-780C3EC70909}"
+	ProjectSection(SolutionItems) = preProject
+		deploy\Scripts\Product.sql = deploy\Scripts\Product.sql
+		deploy\Scripts\ProductCategory.sql = deploy\Scripts\ProductCategory.sql
+		deploy\Scripts\ProductCategoryDiscount.sql = deploy\Scripts\ProductCategoryDiscount.sql
+		deploy\Scripts\ProductDiscount.sql = deploy\Scripts\ProductDiscount.sql
+		deploy\Scripts\ProductPricing.sql = deploy\Scripts\ProductPricing.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +64,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{39A28988-E007-4E81-A7A0-EC13C8B90EB4} = {7B44EF5B-A097-4E4E-91C7-FF91940633CF}
+		{FE4665FC-5DD3-4D35-A86E-780C3EC70909} = {084C61B6-819A-4BDA-82F9-2D88BF7E7A88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A9FD6156-E5C6-4098-A226-B167DE5281F8}
